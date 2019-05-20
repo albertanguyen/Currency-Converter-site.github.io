@@ -71,6 +71,19 @@ function addFormattingToMoney(amount) {
   return amount.toFixed(4).replace(/\d(?=(\d{3})+\.)/g, "$&,");
 }
 
+function VNDBillsComputation(amount) {
+  let Bill500k = amount % 500000;
+  let Bill200k = Bill500k % 200000;
+  let Bill100k = Bill200k % 100000;
+  let Bill50k = Bill100k % 50000;
+  let Bill20k = Bill50k % 20000;
+  let Bill10k = Bill10k % 10000;
+  let Bill5k = Bill5k % 5000;
+  let Bill2k = Bill2k % 2000;
+  let Bill1k = Bill1k % 1000;
+}
+
+
 function ExecutionCurrencyConverter() {
   const valueOfInput = document.getElementById("amount").value;
   const firstCurrency = document.getElementById("Start").value;
