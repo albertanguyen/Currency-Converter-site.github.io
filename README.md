@@ -6,10 +6,6 @@ View online at: https://albertanguyen.github.io/Currency-Converter-site.github.i
   
 Using css, html, Java Script to create a simple site of Currency Converter.
 
-## Homepage:
-
-<img src="https://github.com/albertanguyen/Currency-Converter-site.github.io/blob/master/img/homepage.png" width="800" align="center">
-
 [//]: # (## Video Walkthrough)
 
 [//]: # (Here's a walkthrough of implemented user stories.)
@@ -33,6 +29,9 @@ The following **required** functionalities are completed (this is a sample):
 [//]: # (Time spent: **X** hours spent in total.)
 
 [//]: # (Describe any challenges encountered while building the app.)
+
+## Version 1.0.1
+Compute number of Bills, created a frontend platform
 
 ## Version 1.0.0
 Adapted from the live demo of Mr. Loi
