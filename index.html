@@ -52,22 +52,19 @@
   </header>
 
   <!--Start Section-->
-  <section class="card-deck m-2 py-4 mt-4" style="font-family: Oswald;">
-    <div class="container">
-      <div class="row">
-        <div class="card mb-4 p-2 box-shadow col-lg-12 d-flex d-inline-flex">
+    <section class="card-deck text-center mx-5 px-3" style="font-family: Oswald;">
+      <div class="card px-3 mb-4 box-shadow pl-sm-0">
           <div class="card-body d-flex flex-column">
-            <div class="col-12 col-md">
-              <h3 class="text-uppercase text-dark" style="font-family: Oswald;">Currency Converter</h3>
+              <h3 class="text-uppercase text-dark mt-5" style="font-family: Oswald;">Currency Converter</h3>
               </hr>
               <form class="my-4">
                 <div class="form-group mt-5 mb-4">
                   <label class="text-dark mr-5" for="amount">Input Value</label>
                   <input class="text-center" type="text" id="amount">
                 </div>
-                <div class="row d-inline d-flex">
-                  <div class="form-group col-md-5 d-inline-block">
-                    <select id="Start" class="form-control">
+                <div class="row d-flex px-5">
+                  <div class="form-group d-inline-flex col-md-5 mr-auto">
+                    <select id="Start" class="form-control text-center">
                       <option>FROM</option>
                       <option value="vnd">VND</option>
                       <option value="usd">USD</option>
@@ -75,8 +72,8 @@
                       <option value="idr">IDR</option>
                     </select>
                   </div>
-                  <div class="form-group col-md-5 d-inline-block">
-                    <select id="End" class="form-control align-items-end">
+                  <div class="form-group col-md-5 d-inline-flex ml-auto">
+                    <select id="End" class="form-control text-center">
                       <option class="text-uppercase">TO</option>
                       <option value="vnd">VND</option>
                       <option value="usd">USD</option>
@@ -91,24 +88,24 @@
                       id="result"></span>
                 </div>
               </form>
-            </div>
-            <div class="card-footer py-0 px-5">
-              <button class="btn btn-md btn-block py-3 text-white font-weight-bold" type="button"
+            
+            <div class="card-footer py-0">
+              <button class="btn btn-md btn-block py-3 px-5 px-md-5 text-white font-weight-bold" type="button"
                 class="btn btn-warning" data-toggle="button" aria-pressed="false" autocomplete="off"
                 onclick="ExecutionCurrencyConverter()" style="background:#F2A900">CONVERT
               </button>
             </div>
           </div>
         </div>
-        <div class="card mb-6 p-2 box-shadow col-md-12 d-flex d-inline-flex">
+        <div class="w-100 d-none d-sm-block d-lg-none"></div>
+        <div class="w-100 d-none d-md-block d-xl-none"></div>
+        <div class="card mb-4 px-3 box-shadow box-shadow pl-sm-0">
           <div class="card-body d-flex flex-column">
-              <h3 class="text-uppercase text-dark" style="font-family: Oswald;" id="Thankyou">😁</h3>
+              <h3 class="text-uppercase text-dark mt-5" style="font-family: Oswald;" id="Thankyou">😁</h3>
               </hr>
               <h4 id="NumberOfBills"></h4>
           </div>
         </div>
-      </div>
-
   </section>
   <!--End Section-->
 
@@ -132,7 +129,7 @@
             <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email"
               aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn btn-sm ml-md-2 btn-block text-white font-weight-bold" type="button"
+              <button class="btn btn-sm mx-5 btn-block text-white font-weight-bold" type="button"
                 class="btn btn-warning" data-toggle="button" aria-pressed="false" autocomplete="off"
                 style="background:#F2A900">Sign up </button>
             </div>
