@@ -14,13 +14,17 @@ Using css, html, Java Script to create a simple site of Currency Converter.
 ## User Stories
 
 The following **required** functionalities are completed (this is a sample):
+THE USER IS ABLE TO
+* [x] Choose any currency in this list: VND, USD, KRW, IDR to convert between each other. 
+* [x] Press a button Convert to start the calculation. 
+* [x] Click on Convert button, the result is displayed in the Converted Value box. 
+* [ ] The user sees number of bills of the currency that they want to convert to convert to correponding with the converted amount
 
-* [x] The user can choose any currency in this list: VND, USD, KRW, IDR to convert between each other. 
-* [x] The user can press a button Convert to start the calculation. 
-* [x] After the user click on Convert, the result is displayed in the Converted Value box. 
-* [ ] The user sees number of bills of the currency that they want to convert to convert to in correponding with the converted amount
+The following **additional** features are implemented:
 
-[//]: # (The following **additional** features are implemented:)
+THE USER CAN
+
+* [x] See the thankyou messages corresponding with the end currency that they choose to convert to
 
 [//]: # (* [x] List anything else that you can get done to improve the page!)
 
@@ -34,7 +38,7 @@ The following **required** functionalities are completed (this is a sample):
 Compute number of Bills, created a frontend platform
 
 ## Version 1.0.0
-Adapted from the live demo of Mr. Loi
+Adapted from the <a href="https://github.com/PrimeTimeTran/HTML-Javascript-Currency-Converter">live demo</a> of Mr. Loi
 
 ## License
 
